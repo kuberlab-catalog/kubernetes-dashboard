@@ -2,7 +2,6 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: kubernetes-dashboard
-  namespace: kube-system
 spec:
   selector:
     matchLabels:
