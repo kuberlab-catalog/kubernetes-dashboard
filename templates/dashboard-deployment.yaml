@@ -27,6 +27,7 @@ spec:
             memory: 50Mi
         ports:
         - containerPort: 9090
+          name: dashboard
         livenessProbe:
           httpGet:
             path: /
