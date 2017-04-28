@@ -27,7 +27,7 @@ spec:
             memory: 50Mi
         ports:
         - containerPort: 9090
-          name: HTTP
+          name: http
         livenessProbe:
           httpGet:
             path: /
