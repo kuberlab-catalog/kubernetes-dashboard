@@ -9,4 +9,6 @@ spec:
     k8s-app: kubernetes-dashboard
   ports:
   - port: 80
+    protocol: TCP
+    name: HTTP
     targetPort: 9090
